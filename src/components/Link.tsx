@@ -20,7 +20,7 @@ const CustomLink: React.FC<CustomLinkProps> = ({ href, ...rest }) => {
   return (
     // eslint-disable-next-line
     <a
-      className="special-underline-new text-primary-color no-underline hover:text-gray-100 dark:text-primary-color-dark dark:hover:text-gray-100 dark:hover:text-gray-800"
+      className="special-underline-new text-primary-color no-underline hover:text-gray-100"
       target="_blank"
       rel="noopener noreferrer"
       href={href}

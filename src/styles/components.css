@@ -20,5 +20,13 @@
   width: 100%;
   left: 0;
   background: linear-gradient(transparent, transparent),
-    linear-gradient(to right, #64ffda, #2bf1c3);
+    linear-gradient(to right, #48abfb, #2b4ff1);
+}
+
+.background-grid {
+  position: relative;
+}
+.background-grid:after {
+  background-image: linear-gradient(rgba(203, 196, 196, 0.7) .1em, transparent .1em), linear-gradient(90deg, rgba(163, 167, 163, 0.7) .1em, transparent .1em);
+  background-size: 3em 3em;
 }
