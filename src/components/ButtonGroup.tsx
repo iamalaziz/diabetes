@@ -109,7 +109,12 @@ export const SelectOptionForm: React.FC = () => {
             <label htmlFor="bloodPressure">
               What is your blood pressure level?
             </label>
-            <Field type="number" name="bloodPressure" id="bloodPressure" className="block w-[80px] rounded-md text-center border-0 p-1 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-gray-400 focus:outline-none sm:text-sm sm:leading-2"/>
+            <Field
+              type="number"
+              name="bloodPressure"
+              id="bloodPressure"
+              className="block w-[80px] rounded-md text-center border-0 p-1 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-gray-400 focus:outline-none sm:text-sm sm:leading-2"
+            />
           </div>
           <button
             type="submit"

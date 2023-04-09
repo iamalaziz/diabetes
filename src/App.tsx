@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import CalcScreen from './screens/CalcScreen';
 import HomeScreen from './screens/HomeScreen';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import InProgressScreen from './screens/InProgressScreen';
 
@@ -16,6 +17,7 @@ function App() {
             <Route path="/inprogress" element={<InProgressScreen />} />
           </Routes>
         </main>
+        <Footer />
       </Router>
     </div>
   );
