@@ -24,17 +24,28 @@ body {
   width: 100%;
   height: 100vh;
 
-  background: url("../assets/img/bg.jpeg") no-repeat center center fixed; 
+  background: url('../assets/img/bg.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  
 }
 
 footer {
   margin-top: auto;
+}
+
+input[name='height'] {
+  position: relative;
+}
+input[name='height']:before {
+  content: '2';
+  position: absolute;
+  top: 0;
+  right: -10px;
+  display: block;
+  font-size: 2rem;
+  color: black;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

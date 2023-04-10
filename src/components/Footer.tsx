@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="my-10 flex flex-col items-center ">
-        <div className="mb-2 flex items-center text-sm text-gray-500 dark:text-gray-400">
+        <div className="hidden mb-2 text-sm text-gray-500 sm:flex sm:items-center">
           <div className="mx-1">
             <Link
               href="https://github.com/iamalaziz"

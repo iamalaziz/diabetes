@@ -8,17 +8,17 @@ export default function HomeScreen() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{' '}
-              <a href="/" className="font-semibold text-indigo-600">
+              <a href="/inprogress" className="font-semibold text-indigo-600">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h1 className="px-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:p-0">
               Empowering You with the Knowledge to Manage Your Health
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 px-2 text-md leading-8 text-gray-600 sm:text-lg sm:px-0">
               Welcome to Diabetes Predictor, a powerful tool that helps you
               identify the risk of diabetes early on. Our app uses advanced
               algorithms and machine learning to analyze your health data and

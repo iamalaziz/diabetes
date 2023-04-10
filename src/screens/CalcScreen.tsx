@@ -1,4 +1,4 @@
-import { SelectOptionForm } from '../components/ButtonGroup';
+import InputForm from '../components/Form';
 
 const CalcScreen = () => {
   return (
@@ -10,11 +10,11 @@ const CalcScreen = () => {
             Risk Predictor
           </h1>
           <p className="mt-6 text-lg text-gray-600">
-            To find out your risk of developing type 2 diabetes within the next
-            five years, complete the following 11 short questions.
+            To find out your risk of developing diabetes within the next five
+            years, complete the following short questions.
           </p>
           <div className="mt-10 justify-center gap-x-6">
-            <SelectOptionForm />
+            <InputForm />
           </div>
         </div>
       </div>
